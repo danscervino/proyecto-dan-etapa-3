@@ -25,7 +25,7 @@ const Inicio = () => {
         <div className="cards-container" id="contenedor-cards">
 
           {
-            productos && productos.map((producto) => (
+            productos && productos?.map((producto) => (
               <Card key={producto.id} producto={producto} />
             ))
           }

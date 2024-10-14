@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useEffect, useState } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 
 /* CREANDO CONTEXTO */
@@ -10,6 +10,11 @@ const CarritoProvider = ( { children } ) => {
     //              0
     const [ agregarAlCarrito, eliminarDelCarrito, limpiarCarrito, carrito ] = useLocalStorage('carrito', [])
 
+    const [cantidadTotal, setCantidadTotal] = useState(carrito.length)
+
+    useEffect(()=>{
+        setCantidadTotal(carrito.length)
+    },[carrito])
 
     function elProductoEstaEnElCarrito(producto) { 
         console.log('Analizo si el producto esta en el carrito')
@@ -55,6 +60,7 @@ const CarritoProvider = ( { children } ) => {
 
     const data = {
         carrito,
+        cantidadTotal,
         agregarProductoAlCarritoContext,
         eliminarProductoDelCarritoContext,
         guardarCarritoContext,

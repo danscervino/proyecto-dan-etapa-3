@@ -6,11 +6,12 @@ const Carrito = () => {
   useTitulo('Carrito')
 
   return (
-    <>
-      <h1>Productos en el Carrito</h1>
-      <hr />
+    <div className="main">
+        <header className="section-cards__header">
+        <h1>Productos en el Carrito</h1>
+      </header>
       <ListadoCarrito />
-    </>
+    </div>
   )
 }
 

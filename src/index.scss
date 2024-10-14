@@ -13,3 +13,18 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 100%; // default navegadores 16px
 }
+
+.main{
+    background-color: #160a6c;
+}
+
+
+.section-cards__header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}

@@ -4,12 +4,18 @@ import ProductosContext from '../context/ProductosContext'
 
 const TablaFila = ( { producto }) => {
 
-  const { setProductoAEditar } = useContext(ProductosContext)
+  const { setProductoAEditar, eliminarProducto } = useContext(ProductosContext)
   
   //console.log(producto)
   const handleEditar = (producto) => {
     console.log('Producto a editar...', producto.id)
     setProductoAEditar(producto)
+  }
+
+   //console.log(producto)
+   const handleBorrar = (producto) => {
+    console.log('Producto a borrar...', producto.id)
+    eliminarProducto(producto.id)
   }
   
   return (
@@ -26,7 +32,7 @@ const TablaFila = ( { producto }) => {
       <td>{producto.envio ? 'SI' : 'NO'}</td>
       <td>
         <button onClick={() => handleEditar(producto)}>Editar</button>
-        <button>Borrar</button>
+        <button onClick={() => handleBorrar(producto)}>Borrar</button>
       </td>
     </tr>
   )

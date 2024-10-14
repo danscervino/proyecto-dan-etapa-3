@@ -48,7 +48,7 @@ export const useLocalStorage = ( clave, valorInicial = []) => {
         window.localStorage.setItem(clave, JSON.stringify(valorInicial))
         setValorAlmacenado(valorInicial)
     }
-    //           0
+
     return [ guardarValor, eliminarValor, limpiarValores, valorAlmacenado ]
 
 }

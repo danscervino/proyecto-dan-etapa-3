@@ -164,17 +164,6 @@
       "marca": "CAMP",
       "categoria": "Loop",
       "envio": true
-    },
-    {
-      "id": "dA01vzq",
-      "nombre": "Bikini",
-      "precio": "25.95",
-      "stock": "6",
-      "marca": "CelesteCid",
-      "categoria": "Ropa Mujer",
-      "detalles": "dos piezas color terracota",
-      "foto": "img/cande-cura1.webp",
-      "envio": true
     }
   ],
   "carrito": [
