@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react"
 import ProductosContext from "../context/ProductosContext"
+import './Formulario.scss'
 const Formulario = () => {
 
   const formInit = {
@@ -67,12 +68,12 @@ const Formulario = () => {
   return (
     <>
     <section className="section-form">
-      <h3>Agregar/Editar Producto</h3>
+      <h3 className="agregarEditar">Agregar/Editar Producto</h3>
 
       <form onSubmit={handleSubmit}>
 
         <div>
-          <label htmlFor="lbl-nombre">Nombre</label>
+          <label className="label-form" htmlFor="lbl-nombre">Nombre</label>
           <input 
             type="text" 
             name="nombre" 
@@ -81,7 +82,7 @@ const Formulario = () => {
             onChange={handleChange} />
         </div>
         <div>
-          <label htmlFor="lbl-precio">Precio</label>
+          <label className="label-form" htmlFor="lbl-precio">Precio</label>
           <input 
             type="text" 
             name="precio" 
@@ -90,7 +91,7 @@ const Formulario = () => {
             onChange={handleChange} />
         </div>
         <div>
-          <label htmlFor="lbl-stock">Stock</label>
+          <label className="label-form" htmlFor="lbl-stock">Stock</label>
           <input 
             type="text" 
             name="stock" 
@@ -99,7 +100,7 @@ const Formulario = () => {
             onChange={handleChange} />
         </div>
         <div>
-          <label htmlFor="lbl-marca">Marca</label>
+          <label className="label-form" htmlFor="lbl-marca">Marca</label>
           <input 
             type="text" 
             name="marca" 
@@ -108,7 +109,7 @@ const Formulario = () => {
             onChange={handleChange} />
         </div>
         <div>
-          <label htmlFor="lbl-categoria">Categoría</label>
+          <label className="label-form" htmlFor="lbl-categoria">Categoría</label>
           <input 
             type="text" 
             name="categoria" 
@@ -117,7 +118,7 @@ const Formulario = () => {
             onChange={handleChange} />
         </div>
         <div>
-          <label htmlFor="lbl-detalles">Detalles</label>
+          <label className="label-form" htmlFor="lbl-detalles">Detalles</label>
           <input 
             type="text" 
             name="detalles" 
@@ -126,7 +127,7 @@ const Formulario = () => {
             onChange={handleChange} />
         </div>
         <div>
-          <label htmlFor="lbl-foto">Foto</label>
+          <label className="label-form" htmlFor="lbl-foto">Foto</label>
           <input 
             type="text" 
             name="foto" 
@@ -135,8 +136,8 @@ const Formulario = () => {
             onChange={handleChange} />
         </div>
         <div>
-          <label htmlFor="lbl-envio">Envío</label>
-          <input 
+          <label className="label-form" htmlFor="lbl-envio">Envío</label>
+          <input className="checkbox" 
             type="checkbox" 
             name="envio" 
             id="lbl-envio" 

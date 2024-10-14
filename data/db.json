@@ -192,18 +192,6 @@
         "cantidad": 3
       },
       {
-        "nombre": "D Plus 3lock",
-        "foto": "img/D PLUS 3LOCK - CARABINER_29-95.webp",
-        "detalles": "Quasi cupiditate quisquam facere molestiae",
-        "precio": 29.95,
-        "stock": "4",
-        "marca": "CAMP",
-        "categoria": "Mosquetón",
-        "id": 2,
-        "envio": true,
-        "cantidad": 1
-      },
-      {
         "nombre": "Oval Pro 3lock",
         "foto": "img/OVAL PRO 3LOCK - CARABINER_17-95.webpg",
         "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
@@ -224,18 +212,6 @@
         "marca": "CAMP",
         "categoria": "Mosquetón",
         "id": 4,
-        "envio": true,
-        "cantidad": 1
-      },
-      {
-        "nombre": "Druid",
-        "foto": "img/DRUID - DESCENDER_239-95.webp",
-        "detalles": "Facere molestiae odio neque rerum provident voluptas",
-        "precio": 239.95,
-        "stock": 4,
-        "marca": "CAMP",
-        "categoria": "Descender",
-        "id": 5,
         "envio": true,
         "cantidad": 1
       }
@@ -268,18 +244,6 @@
     ],
     [
       {
-        "nombre": "Atlas 3lock",
-        "foto": "img/ATLAS 3LOCK - CARABINER_25.95.webp",
-        "detalles": "Lorem ipsum dolor sit, amet consectetur adipisicing.",
-        "precio": 25.95,
-        "stock": "4444",
-        "marca": "CAMP",
-        "categoria": "Mosquetón",
-        "id": 1,
-        "envio": false,
-        "cantidad": 1
-      },
-      {
         "nombre": "D Plus 3lock",
         "foto": "img/D PLUS 3LOCK - CARABINER_29-95.webp",
         "detalles": "Quasi cupiditate quisquam facere molestiae",
@@ -289,18 +253,6 @@
         "categoria": "Mosquetón",
         "id": 2,
         "envio": true,
-        "cantidad": 1
-      },
-      {
-        "nombre": "Oval Pro 3lock",
-        "foto": "img/OVAL PRO 3LOCK - CARABINER_17-95.webpg",
-        "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
-        "precio": 17.95,
-        "stock": 4,
-        "marca": "CAMP",
-        "categoria": "Mosquetón",
-        "id": 3,
-        "envio": false,
         "cantidad": 1
       }
     ]

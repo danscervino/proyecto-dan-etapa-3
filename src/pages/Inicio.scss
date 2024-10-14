@@ -1,3 +1,7 @@
+body {
+    background-color: #160a6c;
+}
+
 .section-cards {
     background-color: #160a6c;
     padding: 1rem;
@@ -19,16 +23,17 @@ h2 {color: #ffffff;
 
 .subtitulo {
     color: #ffffff;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 p {
     color: #390f5e;
 }
 
-.resultado {color: rgb(198, 183, 239);
+.resultado {color: #c6b7ef;
 }
 
-.section-form {
-    color: #ffffff;
-background-color: #160a6c;
+.alta-form {
+    margin-left: 15px;
 }

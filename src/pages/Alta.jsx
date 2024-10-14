@@ -9,8 +9,8 @@ const Alta = () => {
   
   return (
     <>
-      <h1>Formulario de alta de productos</h1>
-      <h2>TUS PRODUCTOS</h2>
+      <h1 className='alta-form'>Formulario de alta de productos</h1>
+      <h2 className='alta-productos'>TUS PRODUCTOS</h2>
       <Formulario />
       <hr />
       <Tabla />
