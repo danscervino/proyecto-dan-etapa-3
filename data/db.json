@@ -1,0 +1,308 @@
+{
+  "productos": [
+    {
+      "nombre": "Atlas 3lock",
+      "foto": "img/ATLAS 3LOCK - CARABINER_25.95.webp",
+      "detalles": "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      "precio": 25.95,
+      "stock": "28",
+      "marca": "CAMP",
+      "categoria": "Mosquetón",
+      "id": "1",
+      "envio": false
+    },
+    {
+      "nombre": "D Plus 3lock",
+      "foto": "img/D PLUS 3LOCK - CARABINER_29-95.webp",
+      "detalles": "Quasi cupiditate quisquam facere molestiae",
+      "precio": 29.95,
+      "stock": "30",
+      "marca": "CAMP",
+      "categoria": "Mosquetón",
+      "id": "2",
+      "envio": true
+    },
+    {
+      "nombre": "Oval Pro 3lock",
+      "foto": "img/OVAL PRO 3LOCK - CARABINER_17-95.webp",
+      "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
+      "precio": 17.95,
+      "stock": "40",
+      "marca": "CAMP",
+      "categoria": "Mosquetón",
+      "id": "3",
+      "envio": false
+    },
+    {
+      "nombre": "Oval XL Lock Black",
+      "foto": "img/OVAL XL LOCK BLACK - CARABINER_16.95.webp",
+      "detalles": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "precio": 16.95,
+      "stock": 7,
+      "marca": "CAMP",
+      "categoria": "Mosquetón",
+      "id": "4",
+      "envio": true
+    },
+    {
+      "nombre": "Druid",
+      "foto": "img/DRUID - DESCENDER_239-95.webp",
+      "detalles": "Facere molestiae odio neque rerum provident voluptas",
+      "precio": 239.95,
+      "stock": 4,
+      "marca": "CAMP",
+      "categoria": "Descender",
+      "id": "5",
+      "envio": true
+    },
+    {
+      "nombre": "Giant Black",
+      "foto": "img/GIANT BLACK - DESCENDER_289.95.webp",
+      "detalles": "Natus iure quasi cupiditate quisquam facere molestiae odio neque rerum provident voluptas!",
+      "precio": 289.95,
+      "stock": 4,
+      "marca": "CAMP",
+      "categoria": "Descender",
+      "id": "6",
+      "envio": true
+    },
+    {
+      "nombre": "Enigma Swivel",
+      "foto": "img/ENIGMA - SWIVEL_179-95.webp",
+      "detalles": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "precio": 179.95,
+      "stock": 2,
+      "marca": "CAMP",
+      "categoria": "Swivel",
+      "id": "7",
+      "envio": false
+    },
+    {
+      "nombre": "Enigma Swivel Black",
+      "foto": "img/ENIGMA BLACK - SWIVEL_179-95.webp",
+      "detalles": "Piola. 8k",
+      "precio": "179.95",
+      "stock": "32",
+      "marca": "CAMP",
+      "categoria": "Swivel",
+      "id": "8",
+      "envio": true
+    },
+    {
+      "nombre": "Enigma 3lock",
+      "foto": "img/ENIGMA 3LOCK - SWIVELING CONNECTOR_209-95.webp",
+      "detalles": "Piola. 8k",
+      "precio": "209.95",
+      "stock": "3",
+      "marca": "CAMP",
+      "categoria": "Swivel",
+      "id": "9",
+      "envio": true
+    },
+    {
+      "nombre": "Enigma 3lock Black",
+      "foto": "img/ENIGMA 3LOCK BLACK - SWIVELING CONNECTOR_209-95.webp",
+      "detalles": "Piola. 8k",
+      "precio": "209.95",
+      "stock": "7",
+      "marca": "CAMP",
+      "categoria": "Swivel",
+      "id": "10",
+      "envio": true
+    },
+    {
+      "nombre": "Pulley",
+      "foto": "img/FLYTE - PULLEY_159.95.webp",
+      "detalles": "Piola. 8k",
+      "precio": "159.95",
+      "stock": "4",
+      "marca": "CAMP",
+      "categoria": "Pulley",
+      "id": "11",
+      "envio": true
+    },
+    {
+      "nombre": "Turbochest Ascender Black",
+      "foto": "img/TURBOCHEST BLACK - CHEST ASCENDER_99.95.webp",
+      "detalles": "Piola. 8k",
+      "precio": "99.95",
+      "stock": "5",
+      "marca": "CAMP",
+      "categoria": "Ascender",
+      "id": "12",
+      "envio": true
+    },
+    {
+      "nombre": "Solo 2 Black Rope Clamp",
+      "foto": "img/SOLO 2 BLACK - ROPE CLAMP_89.95.webp",
+      "detalles": "Piola. 8k",
+      "precio": "89.95",
+      "stock": "9",
+      "marca": "CAMP",
+      "categoria": "Rope Clamp",
+      "id": "13",
+      "envio": true
+    },
+    {
+      "nombre": "Express Fire Loop",
+      "foto": "img/EXPRESS FIRE - FIRE RESISTANT LOOP_35-95_69-95.webp",
+      "detalles": "Piola. 8k",
+      "precio": "35.95 - 69.95",
+      "stock": "20",
+      "marca": "CAMP",
+      "categoria": "Loop",
+      "id": "14",
+      "envio": true
+    },
+    {
+      "nombre": "Enigma Swivel Black",
+      "foto": "img/TRUCK LOOP BLACK - ANCHOR LOOP_27-95_47-95.webp",
+      "detalles": "Piola. 8k",
+      "precio": "27.95 - 47.95",
+      "stock": "8",
+      "marca": "CAMP",
+      "categoria": "Loop",
+      "id": "15",
+      "envio": true
+    },
+    {
+      "id": "DFGkRzD",
+      "nombre": "Maru Camusso",
+      "precio": "no tiene precio",
+      "stock": "1",
+      "marca": "Camusso",
+      "categoria": "Amor",
+      "detalles": "Inexplicable",
+      "foto": "img/maru.webp",
+      "envio": false
+    }
+  ],
+  "carrito": [
+    [
+      {
+        "nombre": "Atlas 3lock",
+        "foto": "img/ATLAS 3LOCK - CARABINER_25.95.webp",
+        "detalles": "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+        "precio": 25.95,
+        "stock": "4444",
+        "marca": "CAMP",
+        "categoria": "Mosquetón",
+        "id": 1,
+        "envio": false,
+        "cantidad": 3
+      },
+      {
+        "nombre": "D Plus 3lock",
+        "foto": "img/D PLUS 3LOCK - CARABINER_29-95.webp",
+        "detalles": "Quasi cupiditate quisquam facere molestiae",
+        "precio": 29.95,
+        "stock": "4",
+        "marca": "CAMP",
+        "categoria": "Mosquetón",
+        "id": 2,
+        "envio": true,
+        "cantidad": 1
+      },
+      {
+        "nombre": "Oval Pro 3lock",
+        "foto": "img/OVAL PRO 3LOCK - CARABINER_17-95.webpg",
+        "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
+        "precio": 17.95,
+        "stock": 4,
+        "marca": "CAMP",
+        "categoria": "Mosquetón",
+        "id": 3,
+        "envio": false,
+        "cantidad": 3
+      },
+      {
+        "nombre": "Oval XL Lock Black",
+        "foto": "img/OVAL XL LOCK BLACK - CARABINER_16.95.webp",
+        "detalles": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "precio": 16.95,
+        "stock": 7,
+        "marca": "CAMP",
+        "categoria": "Mosquetón",
+        "id": 4,
+        "envio": true,
+        "cantidad": 1
+      },
+      {
+        "nombre": "Druid",
+        "foto": "img/DRUID - DESCENDER_239-95.webp",
+        "detalles": "Facere molestiae odio neque rerum provident voluptas",
+        "precio": 239.95,
+        "stock": 4,
+        "marca": "CAMP",
+        "categoria": "Descender",
+        "id": 5,
+        "envio": true,
+        "cantidad": 1
+      }
+    ],
+    [
+      {
+        "nombre": "Giant Black",
+        "foto": "img/GIANT BLACK - DESCENDER_289.95.webp",
+        "detalles": "Natus iure quasi cupiditate quisquam facere molestiae odio neque rerum provident voluptas!",
+        "precio": 289.95,
+        "stock": 4,
+        "marca": "CAMP",
+        "categoria": "Descender",
+        "id": 6,
+        "envio": true,
+        "cantidad": 1
+      },
+      {
+        "nombre": "Enigma Swivel",
+        "foto": "img/ENIGMA - SWIVEL_179-95.webp",
+        "detalles": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "precio": 179.95,
+        "stock": 2,
+        "marca": "CAMP",
+        "categoria": "Swivel",
+        "id": 7,
+        "envio": false,
+        "cantidad": 3
+      }
+    ],
+    [
+      {
+        "nombre": "Atlas 3lock",
+        "foto": "img/ATLAS 3LOCK - CARABINER_25.95.webp",
+        "detalles": "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+        "precio": 25.95,
+        "stock": "4444",
+        "marca": "CAMP",
+        "categoria": "Mosquetón",
+        "id": 1,
+        "envio": false,
+        "cantidad": 1
+      },
+      {
+        "nombre": "D Plus 3lock",
+        "foto": "img/D PLUS 3LOCK - CARABINER_29-95.webp",
+        "detalles": "Quasi cupiditate quisquam facere molestiae",
+        "precio": 29.95,
+        "stock": "4",
+        "marca": "CAMP",
+        "categoria": "Mosquetón",
+        "id": 2,
+        "envio": true,
+        "cantidad": 1
+      },
+      {
+        "nombre": "Oval Pro 3lock",
+        "foto": "img/OVAL PRO 3LOCK - CARABINER_17-95.webpg",
+        "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
+        "precio": 17.95,
+        "stock": 4,
+        "marca": "CAMP",
+        "categoria": "Mosquetón",
+        "id": 3,
+        "envio": false,
+        "cantidad": 1
+      }
+    ]
+  ]
+}

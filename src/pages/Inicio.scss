@@ -1,0 +1,34 @@
+.section-cards {
+    background-color: #160a6c;
+    padding: 1rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+h1 {color: #c38ad9;
+    background-color: #160a6c;
+}
+
+h2 {color: #ffffff;
+    background-color: #160a6c;
+}
+
+.subtitulo {
+    color: #ffffff;
+}
+
+p {
+    color: #390f5e;
+}
+
+.resultado {color: rgb(198, 183, 239);
+}
+
+.section-form {
+    color: #ffffff;
+background-color: #160a6c;
+}
