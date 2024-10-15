@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useState } from "react";
-import ProductosContext from "../context/ProductosContext";
+import React, { useContext, useEffect, useState } from "react"
+import ProductosContext from "../context/ProductosContext"
 import './Formulario.scss';
 
 const Formulario = () => {
@@ -15,21 +15,22 @@ const Formulario = () => {
     envio: false,
   };
 
-  const [form, setForm] = useState(formInit);
+  const [form, setForm] = useState(formInit)
 
   const {
     crearProductoContext,
     actualizarProductoContext,
     productoAEditar,
     setProductoAEditar,
-  } = useContext(ProductosContext);
+  } = useContext(ProductosContext)
 
   useEffect(() => {
-    productoAEditar ? setForm(productoAEditar) : setForm(formInit);
-  }, [productoAEditar]);
+    productoAEditar ? setForm(productoAEditar) : setForm(formInit)
+  }, [productoAEditar])
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault()
+    console.log('handleSubmit')
 
     try {
       if (form.id === null) {
@@ -62,7 +63,7 @@ const Formulario = () => {
     setProductoAEditar(null);
   };
 
-  if(!productoAEditar) return(<></>)
+  //if(!productoAEditar) return(<></>)
 
   return (
     <>

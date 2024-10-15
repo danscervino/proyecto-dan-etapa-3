@@ -3,25 +3,27 @@ import { helperPeticionesHttp } from "../helpers/helper-peticiones-http";
 
 // ! CREANDO CONTEXTO
 // ! 1. Creamos el contexto
-const ProductosContext = createContext();
+const ProductosContext = createContext()
 
 // ! 2. Armamos el provider
 const ProductosProvider = ({ children }) => {
-    const url = import.meta.env.VITE_BACKEND_PRODUCTOS;
-    const [productos, setProductos] = useState(null);
-    const [productoAEditar, setProductoAEditar] = useState(null);
+    const url = import.meta.env.VITE_BACKEND_PRODUCTOS
+    const [productos, setProductos] = useState(null)
+    const [productoAEditar, setProductoAEditar] = useState(null)
 
     useEffect(() => {
-        getAllProductos();
-    }, []);
+        getAllProductos()
+    }, [])
 
     const getAllProductos = async () => {
 
         try {
-            const prods = await helperPeticionesHttp(url, {});
-            setProductos(prods || []); 
+            const prods = await helperPeticionesHttp(url, {})
+
+            setProductos(prods || []) 
+
         } catch (error) {
-            console.error("[getAllProductos]", error);
+            console.error("[getAllProductos]", error)
         }
     };
 
@@ -29,11 +31,12 @@ const ProductosProvider = ({ children }) => {
         try {
             const options = {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
+                headers: { 'content-type' : 'application/json' },
                 body: JSON.stringify(nuevoProducto),
             };
 
             const newProducto = await helperPeticionesHttp(url, options);
+
             setProductos((prevProductos) => [...(prevProductos || []), newProducto]);
         } catch (error) {
             console.error("[crearProductoContext]", error);
@@ -44,7 +47,7 @@ const ProductosProvider = ({ children }) => {
         try {
             const options = {
                 method: "PUT",
-                headers: { "Content-Type": "application/json" },
+                headers: { "content-Type": "application/json" },
                 body: JSON.stringify(productoEditado),
             };
 
