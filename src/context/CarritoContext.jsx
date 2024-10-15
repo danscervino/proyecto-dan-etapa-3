@@ -57,8 +57,26 @@ const CarritoProvider = ( { children } ) => {
         limpiarCarrito()
     }
 
-    const guardarCarritoContext = () => {
+    const guardarCarritoContext = async (carrito) => {
         console.log(carrito)
+        console.log(JSON.stringify(carrito))
+
+        try {
+
+            const options = {
+                method: 'POST',
+                headers: { 'Content-Type' : 'application/json'},
+                body: JSON.stringify(carrito)
+            }
+
+            const losProductosEnElCarrito = await helperPeticionesHttp(url, options)
+
+            // Extra: Crear una página de compra éxito. 
+            console.log(losProductosEnElCarrito)
+            
+        } catch (error) {
+            console.error('[guardarCarritoContext]', error)
+        }
     }
 
     const data = {
