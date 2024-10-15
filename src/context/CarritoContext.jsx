@@ -1,5 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
+import { helperPeticionesHttp } from "../helpers/helper-peticiones-http";
 
 /* CREANDO CONTEXTO */
 
@@ -7,6 +8,8 @@ import { useLocalStorage } from "../hooks/useLocalStorage";
 const CarritoContext = createContext()
 /* 2do -> El armado del provider */
 const CarritoProvider = ( { children } ) => {
+    const url = import.meta.env.VITE_BACKEND_CARRITOS
+    // console.log(url)
     //              0
     const [ agregarAlCarrito, eliminarDelCarrito, limpiarCarrito, carrito ] = useLocalStorage('carrito', [])
 

@@ -16,9 +16,10 @@ const ProductosProvider = ({ children }) => {
     }, []);
 
     const getAllProductos = async () => {
+
         try {
             const prods = await helperPeticionesHttp(url, {});
-            setProductos(prods || []); // Aseguramos que prods.productos exista
+            setProductos(prods || []); 
         } catch (error) {
             console.error("[getAllProductos]", error);
         }
@@ -33,7 +34,7 @@ const ProductosProvider = ({ children }) => {
             };
 
             const newProducto = await helperPeticionesHttp(url, options);
-            setProductos((prevProductos) => [...(prevProductos || []), newProducto]); // Aseguramos que productos no sea null
+            setProductos((prevProductos) => [...(prevProductos || []), newProducto]);
         } catch (error) {
             console.error("[crearProductoContext]", error);
         }
@@ -48,12 +49,18 @@ const ProductosProvider = ({ children }) => {
             };
 
             const urlEdicion = `${url}/${productoEditado.id}`; // Aseguramos que la URL esté correctamente formada
+
             const editedProduct = await helperPeticionesHttp(urlEdicion, options);
+
+            const nuevoEstadoProductos = productos.map( 
+                producto => producto.id === editedProduct.id ? editedProduct : producto
+            )
+            setProductos(nuevoEstadoProductos)
 
             setProductos((prevProductos) =>
                 (prevProductos || []).map((producto) =>
                     producto.id === editedProduct.id ? editedProduct : producto
-                )
+        )
             );
         } catch (error) {
             console.error("[actualizarProductoContext]", error);
